@@ -1,0 +1,31 @@
+{
+  "name": "dmstr/yii2-filemanager-ck-browser",
+  "description": "yii2 module to be able to use dmstr/yii2-filemanager-widgets as filebrowser from within ck-editor",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "filemanager",
+    "ck-editor"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Jens Giessmann",
+      "email": "j.giessmann@herzogkommunikation.de"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "dmstr/yii2-filefly-module" : "^1.7.0-rc1",
+    "dmstr/yii2-filemanager-widgets" : "^1.3.0-rc1",
+    "dmstr/yii2-web" : "^1.0.0"
+  },
+  "suggest": {
+    "ckeditor/ckeditor": "^4.7.0+full"
+  },
+  "autoload": {
+    "psr-4": {
+      "dmstr\\filemanagerCkBrowser\\": "src/"
+    }
+  }
+}
